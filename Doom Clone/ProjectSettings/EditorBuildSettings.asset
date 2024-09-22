@@ -6,42 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/1_Tutorial/1_1_OpenTheDoor.unity
-    guid: edf4c0b86bc0d6b4ea8fe2218d55af05
-  - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/1_Tutorial/1_2_FindTheKeys.unity
-    guid: 592255e6d00779d42aa16156b13b9c2c
-  - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/1_Tutorial/1_3_JumpAbility.unity
-    guid: ea177c049785bb64f94b200107d539b3
-  - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/1_Tutorial/1_4_DashAbility.unity
-    guid: ec0729821b53d464080f486f3df30148
-  - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/1_Tutorial/1_5_DarkTunnel.unity
-    guid: 436577f7498ec2c418b540a3fbe10ccf
-  - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/4_Levels/3_Hub/_Hub_Atrium.unity
-    guid: 3026c599260ac1e4ab844e54dc5a3666
-  - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/4_Levels/1_DreamWorld/Level_1_DreamWorld_1/_Level_1_DreamWorld_1.unity
-    guid: a11d13704c4174c4b9c48856038f19e2
-  - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/4_Levels/1_DreamWorld/Level_1_DreamWorld_2/_Level_1_DreamWorld_2.unity
-    guid: eb3de2ca2e60db04a9e1da02a61652e6
-  - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/4_Levels/3_TrippyWorld/3_TrippyWorld_1/_Level_3_TrippyWorld_1.unity
-    guid: acccfaf4dcb036043823c7b60e98f008
-  - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/4_Levels/5_PoopWorld/Level_5_PoopWorld_1/_Level_5_PoopWorld_1.unity
-    guid: f01ca29073cd28943830e7d453aefbcb
-  - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/4_Levels/5_PoopWorld/Level_5_PoopWorld_2/_Level_5_PoopWorld_2.unity
-    guid: d07f3e6a07bae5a428c3c9df595580d5
-  - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/4_Levels/7_NightmareWorld/Level_7_NightmareWorld_1/_Level_7_NightmareWorld_1.unity
-    guid: 8279541f220b5d74cab4bf198ab51e16
-  - enabled: 1
-    path: Assets/Scenes/Demo_Greybox/2_Arenas/Arena_BigFight_1.unity
-    guid: 6f877451ba91ff646b1c6e0dff876c44
+    path: Assets/Scenes/Greybox/Greybox_1_Brutalism.unity
+    guid: b000929ca7ee9b2478901dc4a6e86683
   m_configObjects: {}

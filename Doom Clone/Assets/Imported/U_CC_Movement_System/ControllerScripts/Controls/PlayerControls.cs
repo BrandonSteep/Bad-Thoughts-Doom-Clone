@@ -193,17 +193,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""8da94232-63f9-4f29-8edb-cf44c537206b"",
-                    ""path"": ""<Keyboard>/e"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Interact"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""78f1d57d-b7ca-46d4-9e78-c2d1d0dc6c0e"",
                     ""path"": ""<Gamepad>/buttonWest"",
                     ""interactions"": """",
