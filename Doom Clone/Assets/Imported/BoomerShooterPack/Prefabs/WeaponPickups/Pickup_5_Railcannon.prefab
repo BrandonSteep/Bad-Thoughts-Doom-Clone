@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1092864671}
   - component: {fileID: 1092864670}
   - component: {fileID: 1092864673}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3998296634572399847}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6966250884295206240}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Bone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,9 +200,9 @@ GameObject:
   - component: {fileID: 919132149052098734}
   - component: {fileID: 2946350834826477954}
   - component: {fileID: 1998088749857871362}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Pickup_5_Railcannon
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -318,10 +318,8 @@ MonoBehaviour:
   hitLayers:
     serializedVersion: 2
     m_Bits: 1
-  spread: {x: 0.02, y: 0.02, z: 0.02}
   muzzle: {fileID: 1956316357240279701}
-  _playTrail: 0
-  _pierceAmount: 50
+  bloodSpatter: {fileID: 0}
 --- !u!114 &1722436148909905780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,6 +510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12e450ee42548f4f870850065a2ac15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canPlay: 1
   _sounds:
   - {fileID: 8300000, guid: 02c537ceb2b3669478017af88dbf5a6a, type: 3}
 --- !u!1 &1956316357240279700
@@ -525,7 +524,7 @@ GameObject:
   - component: {fileID: 1956316357240279701}
   - component: {fileID: 1956316357240279699}
   - component: {fileID: 1956316357240279698}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MuzzleFlash (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5406,7 +5405,7 @@ GameObject:
   - component: {fileID: 1956316357428017519}
   - component: {fileID: 1956316357428017517}
   - component: {fileID: 1956316357428017516}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10275,7 +10274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1956316357508319257}
   - component: {fileID: 1956316357508319254}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10370,7 +10369,7 @@ GameObject:
   - component: {fileID: 1956316357749338132}
   - component: {fileID: 1956316357749338130}
   - component: {fileID: 1956316357749338133}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MuzzleSmoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15258,7 +15257,7 @@ GameObject:
   - component: {fileID: 1956316357792022211}
   - component: {fileID: 1956316357792022209}
   - component: {fileID: 1956316357792022208}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Particle System (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20137,7 +20136,7 @@ GameObject:
   - component: {fileID: 1956316358002524907}
   - component: {fileID: 1956316358002524905}
   - component: {fileID: 1956316358002524904}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25008,7 +25007,7 @@ GameObject:
   - component: {fileID: 1975710673036007398}
   - component: {fileID: 5518923142538487177}
   - component: {fileID: 8085734821502458004}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: 2_Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25089,7 +25088,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2813852001564525192}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Bone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25125,7 +25124,7 @@ GameObject:
   - component: {fileID: 9098208365501094384}
   - component: {fileID: 2164175161534781638}
   - component: {fileID: 3512300410942467143}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: 1_Drum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25208,7 +25207,7 @@ GameObject:
   - component: {fileID: 7256370306045523195}
   - component: {fileID: 53058066100694480}
   - component: {fileID: 5274200930299267468}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: 1_Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25289,7 +25288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1929458695017826008}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Bone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25322,9 +25321,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1092864669}
     m_Modifications:
+    - target: {fileID: 3253697802489750734, guid: 5de4f0730ee2cc042978d98fd473a31c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4624989325913677832, guid: 5de4f0730ee2cc042978d98fd473a31c, type: 3}
       propertyPath: m_Name
       value: ChargeBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 4624989325913677832, guid: 5de4f0730ee2cc042978d98fd473a31c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4624989325913677833, guid: 5de4f0730ee2cc042978d98fd473a31c, type: 3}
       propertyPath: m_Pivot.x
@@ -25422,6 +25429,14 @@ PrefabInstance:
       propertyPath: m_TargetGraphic
       value: 
       objectReference: {fileID: 8706461574082593231}
+    - target: {fileID: 4624989326613079772, guid: 5de4f0730ee2cc042978d98fd473a31c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4624989327420756350, guid: 5de4f0730ee2cc042978d98fd473a31c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4624989327420756351, guid: 5de4f0730ee2cc042978d98fd473a31c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

@@ -18,8 +18,23 @@ public class BoomerShooterWeaponSystem : MonoBehaviour
 
     [SerializeField] private bool[] hasWeapon;
 
+    [SerializeField] private GameObject blankWeapon;
+
     void Start(){
         _weaponSlot = transform.GetChild(0).gameObject;
+
+        // Check for first Weapon in Inventory
+        HasWeaponAtIndex firstWeapon = FirstWeaponInInventory();
+        if(firstWeapon.HasWeapon()){
+            Debug.Log($"Has weapon at index {firstWeapon.GetIndex()} - Instantiating now");
+            Instantiate(_availableWeapons[firstWeapon.GetIndex()].GetPrefab(), _weaponSlot.transform);
+        }
+        else{
+            Debug.Log($"No Weapon in Inventory - Instantiate Blank");
+            Instantiate(blankWeapon, _weaponSlot.transform);
+            _nextWeaponIndex = 99;
+        }
+        
         RefreshActiveWeapon();
     }
 
@@ -95,6 +110,16 @@ public class BoomerShooterWeaponSystem : MonoBehaviour
     }
     public void EnableWeaponAnim(){
         _currentWeapon.GetComponent<Animator>().enabled = true;
+    }
+
+    private HasWeaponAtIndex FirstWeaponInInventory(){
+        for(int i = 0; i < hasWeapon.Length; i++){
+            if(hasWeapon[i]){
+                return new HasWeaponAtIndex(i, true);
+            }
+            else continue;
+        }
+        return new HasWeaponAtIndex(0, false);
     }
 
     public void PickupWeapon(int weaponIndex){

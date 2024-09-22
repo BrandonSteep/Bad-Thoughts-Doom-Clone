@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class WeaponPickups : MonoBehaviour, IInteractable
 {
-    private BoomerShooterWeaponSystem equippedManager;
+    [SerializeField] private BoomerShooterWeaponSystem equippedManager;
     [SerializeField] private int weaponIndex;
     [SerializeField] private AudioClip pickupSound;
 
     void Start(){
+        Debug.Log($"Setting equippedManager as {ControllerReferences.equipmentManager}");
         equippedManager = ControllerReferences.equipmentManager;
     }
 
+    void OnTriggerEnter(Collider other){
+        if(other.gameObject == ControllerReferences.player){
+            Interact();
+        }
+    }
+
     public void Interact(){
+        Debug.Log(equippedManager);
         equippedManager.PickupWeapon(weaponIndex);
         if(pickupSound != null){
             // Play Pickup Audio

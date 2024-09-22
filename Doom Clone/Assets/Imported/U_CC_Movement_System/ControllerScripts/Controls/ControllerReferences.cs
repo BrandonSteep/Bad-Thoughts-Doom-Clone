@@ -31,9 +31,8 @@ public class ControllerReferences : MonoBehaviour
         cam = Camera.main;
         playerKnockback = player.GetComponent<PlayerKnockback>();
         playerAnim = player.GetComponent<Animator>();
+        equipmentManager = GameObject.FindWithTag("Equipped").GetComponent<BoomerShooterWeaponSystem>();
         abilityHolder = GameObject.FindWithTag("Ability").GetComponent<AbilityHolder>();
-
-
     }
 
 
