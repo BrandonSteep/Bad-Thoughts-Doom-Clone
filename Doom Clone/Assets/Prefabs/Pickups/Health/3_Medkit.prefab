@@ -145,3 +145,4 @@ MonoBehaviour:
   healthToAdd: 25
   collectLimit: 100
   collectEvent: {fileID: 11400000, guid: 2fe6e187f3d144943bc211fefe67cb23, type: 2}
+  pickupSound: {fileID: 8300000, guid: 94400a9da722e0844bcfe9dabc9ee8a8, type: 3}

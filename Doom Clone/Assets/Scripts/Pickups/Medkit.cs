@@ -6,6 +6,8 @@ public class Medkit : MonoBehaviour
     [SerializeField] private float collectLimit = 100f;
     [SerializeField] private GameEvent collectEvent;
 
+    [SerializeField] private AudioClip pickupSound;
+
     private void OnTriggerEnter(Collider other){
         Debug.Log("Triggered lol");
         if(other.tag == "Player" && ControllerReferences.playerStatus.currentHp.value < collectLimit){
@@ -24,6 +26,7 @@ public class Medkit : MonoBehaviour
             ControllerReferences.playerStatus.currentHp.value += healthToAdd;
         }
         collectEvent.Raise();
+        AudioManager.PlayOneShot(pickupSound);
         Destroy(this.gameObject);
     }
 }

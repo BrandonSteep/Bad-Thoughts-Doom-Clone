@@ -7,6 +7,10 @@ public class Status : MonoBehaviour
     protected bool isAlive = true;
     protected bool canTakeDamage = true;
 
+    [SerializeField] private AudioClip hitSound;
+    [SerializeField] private float hitSoundCooldown = 0.05f;
+    private bool canPlayHitSound = true;
+
     public bool CanTakeDamage(){
         return canTakeDamage;
     }
@@ -33,5 +37,17 @@ public class Status : MonoBehaviour
     {
         Debug.Log("iFrames Over");
         canTakeDamage = true;
+    }
+
+    protected void PlayHitSound(){
+        if(canPlayHitSound){
+            AudioManager.PlayOneShot(hitSound);
+            canPlayHitSound = false;
+            Invoke("ResetHitSound", hitSoundCooldown);
+        }
+    }
+
+    private void ResetHitSound(){
+        canPlayHitSound = true;
     }
 }

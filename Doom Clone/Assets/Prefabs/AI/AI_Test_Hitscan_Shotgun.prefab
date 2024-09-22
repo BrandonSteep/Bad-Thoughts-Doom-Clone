@@ -193,6 +193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 277d7a6025e3ce94fa177c7b17dc9924, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitSound: {fileID: 8300000, guid: 758216fe427c02445950a9b515a3864b, type: 3}
+  hitSoundCooldown: 0.05
   stats: {fileID: 11400000, guid: 88a1f030f1b0c2c43b00683f013058d9, type: 2}
   currentHealth: 0
 --- !u!114 &8776843966204754540
@@ -211,6 +213,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1025
   muzzle: {fileID: 1416728398462305714}
+  bloodSpatter: {fileID: 0}
 --- !u!1 &1416728398462305715
 GameObject:
   m_ObjectHideFlags: 0

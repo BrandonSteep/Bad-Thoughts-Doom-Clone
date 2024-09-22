@@ -270,5 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 277d7a6025e3ce94fa177c7b17dc9924, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitSound: {fileID: 8300000, guid: 758216fe427c02445950a9b515a3864b, type: 3}
+  hitSoundCooldown: 0.05
   stats: {fileID: 11400000, guid: 2f6e58379a558ca49a7ef47ba1e2c38d, type: 2}
   currentHealth: 0

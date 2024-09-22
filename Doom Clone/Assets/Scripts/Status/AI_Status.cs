@@ -10,18 +10,24 @@ public class AI_Status : Status, IDamageable
     }
 
     public void TakeDamage(RaycastHit hit, float damageAmount, GameObject attackOrigin){
-        Debug.Log($"AI took {damageAmount} points of damage from {attackOrigin}");
-        currentHealth -= damageAmount;
-        
-        if(currentHealth <= 0f){
-            Die();
+        if(canTakeDamage && isAlive){
+            Debug.Log($"AI took {damageAmount} points of damage from {attackOrigin}");
+            currentHealth -= damageAmount;
+
+            PlayHitSound();
+
+            if(currentHealth <= 0f){
+                Die();
+            }
         }
     }
 
     public void TakeDamage(Transform other, float damageAmount, GameObject attackOrigin){
-        Debug.LogWarning($"Player hit with projectile from {attackOrigin}, dealing {damageAmount} damage");
         if (canTakeDamage && isAlive){
+            Debug.Log($"AI took {damageAmount} points of damage from {attackOrigin}");
             currentHealth -= damageAmount;
+        
+            PlayHitSound();
             
             if(currentHealth <= 0f){
                 Die();
@@ -33,11 +39,15 @@ public class AI_Status : Status, IDamageable
     }
 
     public void TakeDamage(Transform other, float damageAmount){
-        Debug.Log($"AI took {damageAmount} points of damage");
-        currentHealth -= damageAmount;
-        
-        if(currentHealth <= 0f){
-            Die();
+        if(canTakeDamage && isAlive){
+            Debug.Log($"AI took {damageAmount} points of damage");
+            currentHealth -= damageAmount;
+
+            PlayHitSound();
+
+            if(currentHealth <= 0f){
+                Die();
+            }
         }
     }
 }
