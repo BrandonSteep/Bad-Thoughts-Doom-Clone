@@ -1,0 +1,95 @@
+{
+  "player_build_data": [
+    {
+      "type": "playerBuildTimingData",
+      "msg": {
+        "build_event_id": "a78cb8c9bcdb3c84f82102bf00e7ed39",
+        "build_player": 157468,
+        "preprocess_player": 22,
+        "produce_player_script_assemblies": 13875,
+        "build_scripts_dlls": 2338,
+        "writing_asset_files": 90530,
+        "postprocess_built_player": 3039,
+        "node_summary_table": [
+          {
+            "name": "Csc",
+            "duration": 1043
+          },
+          {
+            "name": "Csc",
+            "duration": 682
+          },
+          {
+            "name": "Csc",
+            "duration": 1118
+          },
+          {
+            "name": "Csc",
+            "duration": 1187
+          },
+          {
+            "name": "Csc",
+            "duration": 2258
+          },
+          {
+            "name": "Csc",
+            "duration": 1358
+          },
+          {
+            "name": "Csc",
+            "duration": 1543
+          },
+          {
+            "name": "Csc",
+            "duration": 398
+          },
+          {
+            "name": "Csc",
+            "duration": 2129
+          },
+          {
+            "name": "Csc",
+            "duration": 1384
+          },
+          {
+            "name": "Csc",
+            "duration": 2797
+          },
+          {
+            "name": "Csc",
+            "duration": 1593
+          },
+          {
+            "name": "Csc",
+            "duration": 3807
+          },
+          {
+            "name": "Csc",
+            "duration": 1622
+          },
+          {
+            "name": "Csc",
+            "duration": 1111
+          },
+          {
+            "name": "Csc",
+            "duration": 226
+          },
+          {
+            "name": "Csc",
+            "duration": 1089
+          },
+          {
+            "name": "Csc",
+            "duration": 2218
+          },
+          {
+            "name": "Csc",
+            "duration": 1347
+          }
+        ]
+      },
+      "version": 1
+    }
+  ]
+}
