@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponPrefab: {fileID: 0}
   damageMin: 1
-  damageMax: 6
+  damageMax: 5
   shotCount: 8
   spread: {x: 0.1, y: 0.1, z: 0.1}
   pierceAmount: 0
   playTrail: 1
+  weaponRagdoll: {fileID: 0}

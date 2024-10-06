@@ -23,7 +23,7 @@ TagManager:
   - Water
   - UI
   - Equipped
-  - 7
+  - Ignore AI FOV
   - Projectile
   - Post-Processing
   - Player

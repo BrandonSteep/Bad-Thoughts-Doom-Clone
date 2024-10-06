@@ -16,6 +16,7 @@ MonoBehaviour:
   damageMin: 5
   damageMax: 15
   shotCount: 1
-  spread: {x: 0.06, y: 0.06, z: 0.06}
+  spread: {x: 0.04, y: 0.04, z: 0.04}
   pierceAmount: 0
   playTrail: 0
+  weaponRagdoll: {fileID: 6615514614648933186, guid: d89c3c23eca47c94086745389ddb151d, type: 3}

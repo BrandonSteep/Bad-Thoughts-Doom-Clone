@@ -15,7 +15,7 @@ public class AIStateMachineManager : MonoBehaviour
 
     // These can be changed on a per-enemy basis for increased behavioural variety
     [Header ("Handler Classes")]
-    private DecisionHandler decisionHandler = new DecisionHandler();
+    protected IDecisionHandler decisionHandler = new DecisionHandler();
     private FieldOfView fov;
     [SerializeField] private AIAttackHandler attackHandler;
     
@@ -71,7 +71,7 @@ public class AIStateMachineManager : MonoBehaviour
         currentState.RunState(this);
     }
 
-    private void MakeAIDecisions(){
+    protected virtual void MakeAIDecisions(){
         nextState = decisionHandler.MakeAIDecisions(this);
         if(nextState != currentState){
             TransitionState(nextState);
@@ -180,7 +180,7 @@ public class AIStateMachineManager : MonoBehaviour
         }
     }
 
-    public void MeleeAttack(){
+    public virtual void MeleeAttack(){
         Debug.LogWarning("No Melee Attack Set Up");
         // Initiate Melee Attack //
     }
@@ -195,7 +195,6 @@ public class AIStateMachineManager : MonoBehaviour
             t += Time.deltaTime / endTime;
             
             valueToSet(t);
-            // Debug.Log($"Attack Timer = {attackTimer}");
             yield return null;
         }
         t = 1f;

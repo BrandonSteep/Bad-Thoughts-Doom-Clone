@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6615514613576662794}
   - component: {fileID: 6615514613576662788}
   - component: {fileID: 6615514613576662795}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: 2_ViewingPort
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 6615514613771212853}
   - component: {fileID: 6615514613771212855}
   - component: {fileID: 6615514613771212854}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: 3_Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6615514613795975675}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Bone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 6615514614098167446}
   - component: {fileID: 6615514614098167440}
   - component: {fileID: 6615514614098167447}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: 6_Muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 6615514614107829107}
   - component: {fileID: 6615514614107829005}
   - component: {fileID: 6615514614107829004}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: 1_Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -378,7 +378,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6615514614252456801}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 6615514614312714361}
   - component: {fileID: 6615514614312714363}
   - component: {fileID: 6615514614312714362}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: 4_Rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6615514614446889232}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 6615514614492013383}
   - component: {fileID: 6615514614492013377}
   - component: {fileID: 6615514614492013376}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: 5_Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -610,9 +610,9 @@ GameObject:
   - component: {fileID: 6615514614648933187}
   - component: {fileID: -732790658044248430}
   - component: {fileID: 1219996688852966583}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Pickup_3_Coilgun
-  m_TagString: Interactable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -670,7 +670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6615514615123868937}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Bone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}

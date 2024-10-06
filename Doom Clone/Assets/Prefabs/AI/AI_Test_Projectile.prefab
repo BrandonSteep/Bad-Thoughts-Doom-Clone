@@ -163,7 +163,7 @@ MonoBehaviour:
     m_Bits: 3073
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 58345
+    m_Bits: 58217
 --- !u!114 &1448453801915957571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,7 +221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1416728398462305715}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0.4, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -242,3 +242,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sm: {fileID: 1416728397491891208}
   inverted: 0
+  lookAtPlayerCamera: 1

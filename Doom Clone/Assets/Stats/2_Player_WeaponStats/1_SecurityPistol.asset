@@ -19,3 +19,4 @@ MonoBehaviour:
   spread: {x: 0.025, y: 0.025, z: 0.025}
   pierceAmount: 0
   playTrail: 0
+  weaponRagdoll: {fileID: 1009041904267246573, guid: e044d28df4a3d7c41b1f34bae443bf57, type: 3}

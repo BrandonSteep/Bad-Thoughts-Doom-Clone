@@ -1,5 +1,5 @@
 using UnityEngine;
-public class DecisionHandler
+public class DecisionHandler : IDecisionHandler
 {
     // State References //
     private State stateStay = new State();

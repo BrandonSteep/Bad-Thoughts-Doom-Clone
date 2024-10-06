@@ -129,6 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sm: {fileID: 4690808568967991132}
   inverted: 0
+  lookAtPlayerCamera: 1
 --- !u!1 &4690808568967991131
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu (menuName = "WeaponStats")]
+[CreateAssetMenu (menuName = "Weapons/WeaponStats")]
 public class WeaponStats : ScriptableObject
 {
     [SerializeField] private GameObject weaponPrefab;
@@ -14,6 +14,7 @@ public class WeaponStats : ScriptableObject
     [SerializeField] private Vector3 spread = new Vector3(0.1f, 0.1f, 0.1f);
     [SerializeField] private int pierceAmount = 0;
     [SerializeField] private bool playTrail = true;
+    [SerializeField] private GameObject weaponRagdoll;
 
     #region Return Functions
 
@@ -47,6 +48,10 @@ public class WeaponStats : ScriptableObject
 
     public bool PlaysTrail(){
         return playTrail;
+    }
+
+    public GameObject GetWeaponRagdoll(){
+        return weaponRagdoll;
     }
 
 #endregion

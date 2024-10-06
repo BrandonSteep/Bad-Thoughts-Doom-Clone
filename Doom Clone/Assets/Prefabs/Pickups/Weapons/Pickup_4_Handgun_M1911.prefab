@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 781848212}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: ShellEjector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7321599655960866699}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Bone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 8497603246195322298}
   - component: {fileID: 7228811251981372240}
   - component: {fileID: 2360716355241569588}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: 4_Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 6816129121133936468}
   - component: {fileID: 2801403173672455050}
   - component: {fileID: 262397489480756701}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: 2_Slide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 782219976217969078}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,7 +270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3493365922429936145}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Bone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3080306216196039386}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +336,7 @@ GameObject:
   - component: {fileID: 7755042563146620396}
   - component: {fileID: 8950653018799862122}
   - component: {fileID: 732927670623942408}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: 1_Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7897971009869131577}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Bone.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 7813746990703452830}
   - component: {fileID: 8640257767829122520}
   - component: {fileID: 6196538098691267552}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: 5_Bullet.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -539,7 +539,7 @@ GameObject:
   - component: {fileID: 4455004351596424487}
   - component: {fileID: 7721571872470939826}
   - component: {fileID: 8100813479882372636}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: 3_Hammer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -622,7 +622,7 @@ GameObject:
   - component: {fileID: 5874134278979254995}
   - component: {fileID: 5874134278979254993}
   - component: {fileID: 5874134278979254994}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: MuzzleFlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5502,7 +5502,7 @@ GameObject:
   - component: {fileID: 5874134280113488484}
   - component: {fileID: 5874134280113488490}
   - component: {fileID: 5874134280113488491}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: MuzzleSmoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10399,9 +10399,9 @@ GameObject:
   - component: {fileID: 6720628281794717895}
   - component: {fileID: 919132149610928102}
   - component: {fileID: 1668918452}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Pickup_4_Handgun_M1911
-  m_TagString: Interactable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10706,7 +10706,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1834710627078037291}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Bone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}

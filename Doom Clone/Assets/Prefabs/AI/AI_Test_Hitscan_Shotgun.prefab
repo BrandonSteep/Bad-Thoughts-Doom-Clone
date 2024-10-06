@@ -164,7 +164,7 @@ MonoBehaviour:
     m_Bits: 3073
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 58345
+    m_Bits: 58217
 --- !u!114 &1448453801915957571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitLayers:
     serializedVersion: 2
-    m_Bits: 1025
+    m_Bits: 1153
   muzzle: {fileID: 1416728398462305714}
   bloodSpatter: {fileID: 0}
 --- !u!1 &1416728398462305715

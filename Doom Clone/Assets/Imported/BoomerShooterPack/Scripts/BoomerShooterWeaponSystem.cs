@@ -26,13 +26,12 @@ public class BoomerShooterWeaponSystem : MonoBehaviour
         // Check for first Weapon in Inventory
         HasWeaponAtIndex firstWeapon = FirstWeaponInInventory();
         if(firstWeapon.HasWeapon()){
-            Debug.Log($"Has weapon at index {firstWeapon.GetIndex()} - Instantiating now");
+            // Debug.Log($"Has weapon at index {firstWeapon.GetIndex()} - Instantiating now");
             Instantiate(_availableWeapons[firstWeapon.GetIndex()].GetPrefab(), _weaponSlot.transform);
         }
         else{
             Debug.Log($"No Weapon in Inventory - Instantiate Blank");
-            Instantiate(blankWeapon, _weaponSlot.transform);
-            _nextWeaponIndex = 99;
+            UnequipWeapon();
         }
         
         RefreshActiveWeapon();
@@ -78,17 +77,22 @@ public class BoomerShooterWeaponSystem : MonoBehaviour
             SwapInputRecieved();
         }
     }
-        public void SelectSlot4(){
+    public void SelectSlot4(){
         if(_currentWeapon.GetComponent<SwappableStatus>()._canSwap && !_swapping && hasWeapon[3]){
             _nextWeaponIndex = 3;
             SwapInputRecieved();
         }
     }
-            public void SelectSlot5(){
+    public void SelectSlot5(){
         if(_currentWeapon.GetComponent<SwappableStatus>()._canSwap && !_swapping && hasWeapon[4]){
             _nextWeaponIndex = 4;
             SwapInputRecieved();
         }
+    }
+
+    public void UnequipWeapon(){
+        Instantiate(blankWeapon, _weaponSlot.transform);
+        _nextWeaponIndex = 99;
     }
 
     public void SwapWeapons(){
@@ -103,6 +107,13 @@ public class BoomerShooterWeaponSystem : MonoBehaviour
         }
         // RefreshActiveWeapon();
         Invoke("RefreshActiveWeapon", 0.05f);
+    }
+
+    public void ThrowWeapon(){
+        Rigidbody rb = Instantiate(_availableWeapons[_currentWeaponIndex].GetWeaponRagdoll(), _weaponSlot.transform.position, _weaponSlot.transform.rotation).GetComponent<Rigidbody>();
+        rb.AddForce(ControllerReferences.cam.transform.forward * 5f, ForceMode.Impulse);
+        rb.AddTorque(new Vector3(10f,10f,10f));
+        Destroy(_currentWeapon);
     }
 
     private void DisableWeaponAnim(){

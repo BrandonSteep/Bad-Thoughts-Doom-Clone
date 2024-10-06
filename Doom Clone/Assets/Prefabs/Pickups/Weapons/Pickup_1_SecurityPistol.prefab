@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 198650508359080064}
   - component: {fileID: 198650508359080065}
   - component: {fileID: 198650508359080066}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: WeaponDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ GameObject:
   - component: {fileID: 198650508634580217}
   - component: {fileID: 198650508634580167}
   - component: {fileID: 198650508634580216}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: CanShoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 198650508814737190}
   - component: {fileID: 198650508814737188}
   - component: {fileID: 198650508814737189}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: AmmoCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,7 +381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8503630063848011671}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Slide_b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5429039536233365151}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Magazine_b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,9 +448,9 @@ GameObject:
   - component: {fileID: 381406189392847191}
   - component: {fileID: 9119465295752008167}
   - component: {fileID: 4174234711027609731}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Pickup_1_SecurityPistol
-  m_TagString: Interactable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -508,7 +508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1486130186806717103}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Trigger_b_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +541,7 @@ GameObject:
   - component: {fileID: 142430911127764058}
   - component: {fileID: 6937462772183115728}
   - component: {fileID: 7481543752550491835}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -622,7 +622,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6832827357409546511}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 4394812936485132270}
   - component: {fileID: 9137203800048669811}
   - component: {fileID: 4541212339334631927}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Slide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -737,7 +737,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 317020980355017742}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Slide_b_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -768,7 +768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8495200755302295561}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Frame_b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -804,7 +804,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7662485933280630873}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -836,7 +836,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9153355871577053950}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Trigger_b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -871,7 +871,7 @@ GameObject:
   - component: {fileID: 9124384823877057964}
   - component: {fileID: 107875637585301096}
   - component: {fileID: 4255057676144022492}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -954,7 +954,7 @@ GameObject:
   - component: {fileID: 1540966772385411849}
   - component: {fileID: 2427340933142329836}
   - component: {fileID: 6259020811550473101}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Magazine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
