@@ -267,7 +267,7 @@ MonoBehaviour:
   _currentWeaponIndex: 0
   _nextWeaponIndex: 0
   _swapping: 0
-  hasWeapon: 0000000000
+  hasWeapon: 0101010101
   blankWeapon: {fileID: 6174187344504109638, guid: ffe563ced6b3b6d47a0a25711ec02c3c, type: 3}
 --- !u!114 &1965174716584288683
 MonoBehaviour:
@@ -1147,15 +1147,15 @@ MonoBehaviour:
   mouseLookInput: {x: 0, y: 0}
   running: 0
   aiming: 0
-  walkSpeed: 3
+  walkSpeed: 2.5
   aimWalkSpeedMultiplier: 1
   currentWalkSpeed: 0
-  runSpeedMultiplier: 1.75
-  alwaysRun: 1
+  runSpeedMultiplier: 2.5
+  alwaysRun: 0
   currentStamina: {fileID: 11400000, guid: fc0be133d9541a34d88106d486543a56, type: 2}
   maxStamina: {fileID: 11400000, guid: 428bfca5457e2e2448faf05d64b60ece, type: 2}
-  staminaDrainRate: 0
-  staminaRefillRate: 1000000
+  staminaDrainRate: 15
+  staminaRefillRate: 35
   slopeForce: 100
   slopeForceRayLength: 0
   mouseSensitivity: 3.5
@@ -1537,6 +1537,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7623760363553116420}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3010,11 +3022,11 @@ PrefabInstance:
     - target: {fileID: 6892397329354246895, guid: a917dd8668211f74e9bd6e50f7b21549, type: 3}
       propertyPath: max
       value: 
-      objectReference: {fileID: 11400000, guid: 32304fb3f0612354ea9cf4654e3de7c5, type: 2}
+      objectReference: {fileID: 11400000, guid: 428bfca5457e2e2448faf05d64b60ece, type: 2}
     - target: {fileID: 6892397329354246895, guid: a917dd8668211f74e9bd6e50f7b21549, type: 3}
       propertyPath: current
       value: 
-      objectReference: {fileID: 11400000, guid: bf3f8accdd4f4344cb04652fc3640368, type: 2}
+      objectReference: {fileID: 11400000, guid: fc0be133d9541a34d88106d486543a56, type: 2}
     - target: {fileID: 6892397329354246895, guid: a917dd8668211f74e9bd6e50f7b21549, type: 3}
       propertyPath: gradient.ctime1
       value: 34017
@@ -3080,7 +3092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textBox: {fileID: 0}
-  floatToDisplay: {fileID: 11400000, guid: bf3f8accdd4f4344cb04652fc3640368, type: 2}
+  floatToDisplay: {fileID: 11400000, guid: fc0be133d9541a34d88106d486543a56, type: 2}
 --- !u!114 &9221265993676594044 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2309158680540957571, guid: a917dd8668211f74e9bd6e50f7b21549, type: 3}

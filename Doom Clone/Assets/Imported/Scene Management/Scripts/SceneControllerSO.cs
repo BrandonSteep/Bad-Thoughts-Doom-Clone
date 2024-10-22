@@ -4,31 +4,17 @@ using UnityEngine.SceneManagement;
 [CreateAssetMenu(menuName = "Scene Controller")]
 public class SceneControllerSO : ScriptableObject
 {
-    [SerializeField] private string[] _sceneNames;
+    [SerializeField] private string _sceneName;
     private Transform _playerSpawnTransform;
 
-    public void LoadScene(int index)
+    public void LoadScene()
     {
-        if (index < 0 || index >= _sceneNames.Length)
-        {
-            Debug.LogError($"Invalid scene index: {index}");
-            return;
-        }
-
-        SceneManager.LoadScene(_sceneNames[index]);
+        SceneManager.LoadScene(_sceneName);
     }
 
     public void LoadScene(string name)
     {
-        int index = System.Array.IndexOf(_sceneNames, name);
-
-        if (index < 0)
-        {
-            Debug.LogError($"Scene name '{name}' not found in list of scene names");
-            return;
-        }
-
-        LoadScene(index);
+        LoadScene(name);
     }
 
     public void SpawnPlayer()

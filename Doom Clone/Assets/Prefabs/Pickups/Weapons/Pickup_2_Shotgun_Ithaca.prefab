@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6079422384157597}
-  m_Layer: 0
-  m_Name: Armature.001
+  m_Layer: 2
+  m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1785718145784262132}
   - component: {fileID: 8167379815015067231}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: 5_Sling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,7 +84,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5180127ef60ac5942babbc6d9e64774a, type: 2}
+  - {fileID: 2100000, guid: e2720a89302dc954d9e01a469541acc7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 7145594738365482838}
   - component: {fileID: 3274505030995410457}
   - component: {fileID: 8087272612141338463}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: 1_Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5180127ef60ac5942babbc6d9e64774a, type: 2}
+  - {fileID: 2100000, guid: e2720a89302dc954d9e01a469541acc7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 8726140014360792041}
   - component: {fileID: 5639345607836689327}
   - component: {fileID: 5639345607836689324}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 1521341593786954919}
   - component: {fileID: 5639345607333192512}
   - component: {fileID: 5639345607300292447}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -390,7 +390,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2941373695523660587}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -424,7 +424,7 @@ GameObject:
   - component: {fileID: 5920145114199344252}
   - component: {fileID: 5639345607796907674}
   - component: {fileID: 5639345607796907675}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 8370763203248299930}
   - component: {fileID: 5639345608084855559}
   - component: {fileID: 5639345608084855561}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -593,7 +593,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7875906580824160084}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -626,7 +626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3852995352900114379}
   - component: {fileID: 5639345609294993393}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Sling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -677,7 +677,7 @@ GameObject:
   - component: {fileID: 3395145550600004888}
   - component: {fileID: 5639345607333192522}
   - component: {fileID: 5639345607333192523}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 2232006174432932541}
   - component: {fileID: 9072075719926221432}
   - component: {fileID: 7485301162509106685}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: 4_HeatShield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -813,7 +813,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5180127ef60ac5942babbc6d9e64774a, type: 2}
+  - {fileID: 2100000, guid: e2720a89302dc954d9e01a469541acc7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -846,7 +846,7 @@ GameObject:
   - component: {fileID: 2413907907984364285}
   - component: {fileID: 4108786868884921032}
   - component: {fileID: 1929283428767694446}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: 2_Pump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -929,7 +929,8 @@ GameObject:
   - component: {fileID: 4695610173095101319}
   - component: {fileID: -70250193989326136}
   - component: {fileID: 3002096430026918362}
-  m_Layer: 0
+  - component: {fileID: 3650196941737310332}
+  m_Layer: 2
   m_Name: Pickup_2_Shotgun_Ithaca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -980,6 +981,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5, y: 5, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &3650196941737310332
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5359837978493131069}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3201311aa23903347b90ec5cde1cbe54, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5569193479332381687
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,7 +1013,7 @@ GameObject:
   - component: {fileID: 7638503990397073656}
   - component: {fileID: 779891214112092825}
   - component: {fileID: 7609354035564870307}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: 6_Loops
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1041,7 +1063,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: 84c3182eaa49a4342bd9f56db9eab3b2, type: 3}
+  - {fileID: 2100000, guid: e2720a89302dc954d9e01a469541acc7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1074,7 +1096,7 @@ GameObject:
   - component: {fileID: 7628966363913230380}
   - component: {fileID: 5639345607333192526}
   - component: {fileID: 5639345607333192527}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1158,7 +1180,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8757052474151522004}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1190,7 +1212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8287560858475778467}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1229,7 +1251,7 @@ GameObject:
   - component: {fileID: 7184026502954251145}
   - component: {fileID: 5639345607333192524}
   - component: {fileID: 5639345607333192525}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1315,7 +1337,7 @@ GameObject:
   - component: {fileID: 7367521682673605429}
   - component: {fileID: 5639345607726295077}
   - component: {fileID: 5639345607726295074}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1401,7 +1423,7 @@ GameObject:
   - component: {fileID: 7920926522752176938}
   - component: {fileID: 7421482099701361215}
   - component: {fileID: 2238221900999515072}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: 3_Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1484,7 +1506,7 @@ GameObject:
   - component: {fileID: 55079879872001295}
   - component: {fileID: 5639345607234611500}
   - component: {fileID: 5639345607234611501}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bone.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}

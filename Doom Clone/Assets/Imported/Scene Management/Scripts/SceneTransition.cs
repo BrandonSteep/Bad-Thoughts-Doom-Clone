@@ -3,7 +3,6 @@ using UnityEngine;
 public class SceneTransition : MonoBehaviour
 {
     [SerializeField] private SceneControllerSO _sceneController;
-    [SerializeField] private int _nextSceneIndex;
     [SerializeField] private Transform _playerSpawnTransform;
 
     private bool _canTransition = false;
@@ -22,6 +21,14 @@ public class SceneTransition : MonoBehaviour
         {
             _canTransition = false;
         }
+    }
+
+    public void TriggerTransitionAfterTime(float time){
+        Invoke("TriggerTransition", time);
+    }
+
+    public void TriggerTransition(){
+        _canTransition = true;
     }
 
     private void Update()
@@ -43,7 +50,7 @@ public class SceneTransition : MonoBehaviour
                 PlayerPrefs.SetFloat("NextRotationW", _playerSpawnTransform.localRotation.w);
             }
 
-            _sceneController.LoadScene(_nextSceneIndex);
+            _sceneController.LoadScene();
         }
     }
 }
